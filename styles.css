@@ -242,7 +242,7 @@ body {
   }
   
   .unit-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(+5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
   }
   
@@ -351,29 +351,30 @@ body {
 }
 
 /* DailyBoost Section Styles */
-.dailyboost-section {
-  padding: 2rem;
-  background-color: #0A2647; /* Navy Blue */
+/* .dailyboost-section {
+  padding: 1rem;
+  background-color: #0A2647; 
   color: white;
   text-align: center;
 }
 
 .section-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #FFD700; /* Soft Gold */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #FFD700; 
 }
 
 .quote-container {
   position: relative;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 2rem auto;
+
 }
 
 .day-tag {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #FFD700; /* Soft Gold */
+  color: #FFD700;
   margin-bottom: 1rem;
 }
 
@@ -386,7 +387,6 @@ body {
   animation: fadeInUp 1s ease-in-out forwards;
 }
 
-/* Animation for Quotes */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -396,4 +396,132 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+} */
+
+/* Work-to-Do Section Styles */
+/* .work-to-do-section {
+  padding: 2rem;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0A2647; 
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.column {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 30%;
+  min-height: 200px;
+  text-align: left;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #0A2647; 
+}
+
+.task {
+  background-color: #E0E0E0; 
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0A2647; 
+}
+
+.task-details {
+  font-size: 0.9rem;
+  color: #333;
+} */
+
+/* Work-to-Do Section Styles */
+.work-to-do-section {
+  padding: 2rem;
+  background-color: #F5F5F5; /* Light Gray */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #0A2647;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.noticeboard {
+  display: flex;
+  flex-direction: column; /* Stack sticky notes vertically */
+  gap: 1.5rem; /* Space between sticky notes */
+  align-items: center; /* Center sticky notes horizontally */
+}
+
+.sticky-note {
+  background-color: #FFD700; /* Soft Gold */
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%; /* Full width within the container */
+  max-width: 400px; /* Limit maximum width for readability */
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sticky-note:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-checkbox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  accent-color: #0A2647; /* Navy Blue */
+  cursor: pointer;
+}
+
+.task-content {
+  text-align: left;
+}
+
+.task-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #0A2647; /* Navy Blue */
+}
+
+.task-details {
+  font-size: 0.9rem;
+  color: #333;
 }

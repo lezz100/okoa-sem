@@ -1,7 +1,7 @@
 /* DailyBoost Section Styles */
 .dailyboost-section {
-    padding: 2rem;
-    background-color: #0A2647; /* Navy Blue */
+    padding: 0.5rem;
+    background-color: #0A2647; 
     color: white;
     text-align: center;
   }
@@ -9,7 +9,7 @@
   .section-title {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #FFD700; /* Soft Gold */
+    color: #FFD700; 
   }
   
   .quote-container {
