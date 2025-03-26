@@ -1,0 +1,54 @@
+/* DailyBoost Section Styles */
+.dailyboost-section {
+    padding: 2rem;
+    background-color: #0A2647; /* Navy Blue */
+    color: white;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #FFD700; /* Soft Gold */
+  }
+  
+  .quote-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  .next-quote-btn {
+    background-color: #FFD700; /* Soft Gold */
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-quote-btn:hover {
+    background-color: #FF6F61; /* Coral */
+  }
+  
+  /* Animation for Quotes */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

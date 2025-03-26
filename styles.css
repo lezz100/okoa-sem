@@ -272,3 +272,128 @@ body {
   .view-notes-btn:hover {
     background-color: #FF6F61; /* Coral */
   }
+
+  /* Timetable Section Styles */
+.timetable-section {
+  padding: 2rem;
+  background-color: #F5F5F5; /* Light Gray */
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0A2647; /* Navy Blue */
+}
+
+.timetable-container {
+  overflow-x: auto; /* Ensures horizontal scrolling on small screens */
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.timetable th,
+.timetable td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.timetable th {
+  background-color: #0A2647; /* Navy Blue */
+  color: white;
+  font-weight: bold;
+}
+
+.timetable td {
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timetable td:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Color Coding for Subjects */
+.subject.scientific-computing {
+  background-color: #FFD700; /* Soft Gold */
+}
+.subject.computer-networks {
+  background-color: #FF6F61; /* Coral */
+}
+.subject.software-eng {
+  background-color: #87CEEB; /* Sky Blue */
+}
+.subject.internet-app {
+  background-color: #90EE90; /* Light Green */
+}
+.subject.oop {
+  background-color: #ADD8E6; /* Light Blue */
+}
+.subject.entrepreneurship {
+  background-color: #FFB6C1; /* Light Pink */
+}
+.subject.database {
+  background-color: #D8BFD8; /* Thistle */
+}
+
+.no-class {
+  background-color: #E0E0E0; /* Light Gray */
+  color: #666;
+  font-style: italic;
+}
+
+/* DailyBoost Section Styles */
+.dailyboost-section {
+  padding: 2rem;
+  background-color: #0A2647; /* Navy Blue */
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #FFD700; /* Soft Gold */
+}
+
+.quote-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.day-tag {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFD700; /* Soft Gold */
+  margin-bottom: 1rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Animation for Quotes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
