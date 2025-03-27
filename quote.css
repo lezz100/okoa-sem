@@ -1,4 +1,3 @@
-/* DailyBoost Section Styles */
 .dailyboost-section {
     padding: 0.5rem;
     background-color: #0A2647; 
@@ -28,7 +27,7 @@
   }
   
   .next-quote-btn {
-    background-color: #FFD700; /* Soft Gold */
+    background-color: #FFD700; 
     border: none;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
@@ -38,10 +37,10 @@
   }
   
   .next-quote-btn:hover {
-    background-color: #FF6F61; /* Coral */
+    background-color: #FF6F61; 
   }
   
-  /* Animation for Quotes */
+
   @keyframes fadeInUp {
     from {
       opacity: 0;

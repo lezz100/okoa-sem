@@ -41,7 +41,7 @@
 
 .content h1 {
     font-size: 2rem;
-    color:#089;
+    color: #F5EFE6 ;   /*#089    #D98267 #F5EFE6*/
     margin-bottom: 50px;
     max-width: 900px;
 }
@@ -55,7 +55,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0A2647; /* Navy Blue */
+    background-color: #0A2647; 
     color: white;
     padding: 1rem 2rem;
     position: fixed;
@@ -68,7 +68,7 @@ body {
   .logo h2 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #FFD700; /* Soft Gold */
+    color: #FFD700;
   }
   
   .nav-links {
@@ -85,11 +85,11 @@ body {
   }
   
   .nav-links li a:hover {
-    color: #FFD700; /* Soft Gold */
+    color: #FFD700; 
   }
   
   .login-btn {
-    background-color: #FFD700; /* Soft Gold */
+    background-color: #FFD700;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -99,7 +99,7 @@ body {
   }
   
   .login-btn:hover {
-    background-color: #FF6F61; /* Coral */
+    background-color: #FF6F61; 
   }
 
   /* Hero Section Styles */
@@ -107,7 +107,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: calc(100vh - 60px); /* Full viewport height minus navbar */
+    min-height: calc(100vh - 60px); 
     padding: 2rem;
     background: linear-gradient(to right, #0A2647, #051937);
     color: white;
@@ -135,7 +135,7 @@ body {
   }
   
   .cta-buttons button {
-    background-color: #FFD700; /* Soft Gold */
+    background-color: #FFD700;
     border: none;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
@@ -145,7 +145,7 @@ body {
   }
   
   .cta-buttons button:hover {
-    background-color: #FF6F61; /* Coral */
+    background-color: #FF6F61; 
   }
   
   .hero-image img {
@@ -156,7 +156,7 @@ body {
 
   /* Footer Styles */
 .footer {
-    background-color: #0A2647; /* Navy Blue */
+    background-color: #0A2647; 
     color: white;
     text-align: center;
     padding: 2rem;
@@ -177,7 +177,7 @@ body {
   }
   
   .footer-links a:hover {
-    color: #FFD700; /* Soft Gold */
+    color: #FFD700; 
   }
   
   .social-icons {
@@ -192,7 +192,7 @@ body {
   }
   
   .social-icons a:hover {
-    color: #FFD700; /* Soft Gold */
+    color: #FFD700;
   }
   
   .footer p {
@@ -216,14 +216,14 @@ body {
   /* Units Section Styles */
 .units-section {
     padding: 2rem;
-    background-color: #0A2647; /* Light Gray */
+    background-color: #0A2647; 
     text-align: center;
   }
   
   .section-title {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #0A2647; /* Navy Blue */
+    color: #0A2647; 
   }
   
   .units-grid {
@@ -249,7 +249,7 @@ body {
   .unit-card h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: #0A2647; /* Navy Blue */
+    color: #0A2647; 
   }
   
   .unit-card p {
@@ -260,7 +260,7 @@ body {
   }
   
   .view-notes-btn {
-    background-color: #FFD700; /* Soft Gold */
+    background-color: #FFD700; 
     border: none;
     padding: 0.6rem 1rem;
     border-radius: 5px;
@@ -270,20 +270,20 @@ body {
   }
   
   .view-notes-btn:hover {
-    background-color: #FF6F61; /* Coral */
+    background-color: #FF6F61; 
   }
 
   /* Timetable Section Styles */
 .timetable-section {
   padding: 2rem;
-  background-color: #F5F5F5; /* Light Gray */
+  background-color: #F5F5F5; 
   text-align: center;
 }
 
 .section-title {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #0A2647; /* Navy Blue */
+  color: #0A2647; 
 }
 
 .timetable-container {
@@ -323,145 +323,37 @@ body {
 
 /* Color Coding for Subjects */
 .subject.scientific-computing {
-  background-color: #FFD700; /* Soft Gold */
+  background-color: #FFD700; 
 }
 .subject.computer-networks {
-  background-color: #FF6F61; /* Coral */
+  background-color: #FF6F61; 
 }
 .subject.software-eng {
-  background-color: #87CEEB; /* Sky Blue */
+  background-color: #87CEEB; 
 }
 .subject.internet-app {
-  background-color: #90EE90; /* Light Green */
+  background-color: #90EE90; 
 }
 .subject.oop {
-  background-color: #ADD8E6; /* Light Blue */
+  background-color: #ADD8E6; 
 }
 .subject.entrepreneurship {
-  background-color: #FFB6C1; /* Light Pink */
+  background-color: #FFB6C1; 
 }
 .subject.database {
-  background-color: #D8BFD8; /* Thistle */
+  background-color: #D8BFD8; 
 }
 
 .no-class {
-  background-color: #E0E0E0; /* Light Gray */
+  background-color: #E0E0E0; 
   color: #666;
   font-style: italic;
 }
 
-/* DailyBoost Section Styles */
-/* .dailyboost-section {
-  padding: 1rem;
-  background-color: #0A2647; 
-  color: white;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #FFD700; 
-}
-
-.quote-container {
-  position: relative;
-  max-width: 800px;
-  margin: 2rem auto;
-
-}
-
-.day-tag {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #FFD700;
-  margin-bottom: 1rem;
-}
-
-.quote {
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-bottom: 1.5rem;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s ease-in-out forwards;
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
-
-/* Work-to-Do Section Styles */
-/* .work-to-do-section {
-  padding: 2rem;
-  background-color: #F5F5F5;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: #0A2647; 
-}
-
-.kanban-board {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-.column {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  width: 30%;
-  min-height: 200px;
-  text-align: left;
-}
-
-.column h3 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #0A2647; 
-}
-
-.task {
-  background-color: #E0E0E0; 
-  border-radius: 5px;
-  padding: 1rem;
-  margin-bottom: 0.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.task:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
-}
-
-.task-title {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: #0A2647; 
-}
-
-.task-details {
-  font-size: 0.9rem;
-  color: #333;
-} */
-
 /* Work-to-Do Section Styles */
 .work-to-do-section {
   padding: 2rem;
-  background-color: #F5F5F5; /* Light Gray */
+  background-color: #F5F5F5; 
   text-align: center;
 }
 
@@ -479,17 +371,17 @@ body {
 
 .noticeboard {
   display: flex;
-  flex-direction: column; /* Stack sticky notes vertically */
-  gap: 1.5rem; /* Space between sticky notes */
-  align-items: center; /* Center sticky notes horizontally */
+  flex-direction: column; 
+  gap: 1.5rem; 
+  align-items: center; 
 }
 
 .sticky-note {
-  background-color: #FFD700; /* Soft Gold */
+  background-color: #FFD700; 
   border-radius: 10px;
   padding: 1rem;
-  width: 100%; /* Full width within the container */
-  max-width: 400px; /* Limit maximum width for readability */
+  width: 100%; 
+  max-width: 400px; 
   position: relative;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -506,7 +398,7 @@ body {
   right: 10px;
   width: 20px;
   height: 20px;
-  accent-color: #0A2647; /* Navy Blue */
+  accent-color: #0A2647; 
   cursor: pointer;
 }
 
@@ -518,7 +410,7 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #0A2647; /* Navy Blue */
+  color: #0A2647; 
 }
 
 .task-details {
