@@ -1,122 +1,136 @@
 /* Team Section Styles */
 .team-section {
-    padding: 2rem;
-    background-color: #F5F5F5; 
-    text-align: center;
-  }
-  
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #0A2647; 
-  }
-  
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #0a2647;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.rep-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 300px;
+  height: fit-content;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rep-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rep-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.rep-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0a2647;
+}
+
+.rep-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.rep-card a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.rep-card a:hover {
+  color: #ff6f61;
+}
+
+/* Online Classes Section Styles */
+.online-classes-section {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.class-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.class-link-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.class-link-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.class-link-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #0a2647;
+}
+
+.class-link-btn {
+  background-color: #ffd700;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0a2647;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.class-link-btn:hover {
+  background-color: #ff6f61;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
   .team-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  .rep-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    width: 300px;
-    height: fit-content;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .rep-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .rep-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 1rem;
-  }
-  
-  .rep-card h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
-    color: #0A2647; 
-  }
-  
-  .rep-card p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: #333;
-  }
-  
-  .rep-card a {
-    color: #FFD700; 
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  }
-  
-  .rep-card a:hover {
-    color: #FF6F61; 
+    flex-direction: column;
+    align-items: center;
   }
 
-  /* Online Classes Section Styles */
-.online-classes-section {
-    padding: 2rem;
-    background-color: #F5F5F5; 
-    text-align: center;
-  }
-  
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #0A2647; 
-  }
-  
   .class-links-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    justify-content: center;
+    grid-template-columns: 1fr;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .rep-card,
   .class-link-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 100%;
   }
-  
-  .class-link-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  .class-link-card h3 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    color: #0A2647; 
-  }
-  
-  .class-link-btn {
-    background-color: #FFD700; 
-    border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 5px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #0A2647; 
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .class-link-btn:hover {
-    background-color: #FF6F61; 
-  }
+}

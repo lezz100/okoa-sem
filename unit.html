@@ -11,15 +11,18 @@
         <div class="logo">
           <h2>Tuanze kusoma</h2>
         </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="timetable.html">Timetable</a></li>
           <li><a href="todo.html">Work-to-Do</a></li>
           <li><a href="rep.html">Class Reps</a></li>
         </ul>
-      </nav>
-
-      <br><br><br>
+    </nav>
 
 <section id="units" class="units-section">
     <h2 class="section-title">Units Overview</h2>
@@ -81,6 +84,16 @@
       </div>
     </div>
   </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 ClassBoost. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+        document.querySelector('.hamburger-menu').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
-
