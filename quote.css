@@ -1,6 +1,6 @@
 .dailyboost-section {
     padding: 0.5rem;
-    background-color: #0A2647; 
+    background-color: #0a2647; 
     color: white;
     text-align: center;
   }
@@ -8,7 +8,7 @@
   .section-title {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #FFD700; 
+    color: #FFd700; 
   }
   
   .quote-container {
@@ -27,7 +27,7 @@
   }
   
   .next-quote-btn {
-    background-color: #FFD700; 
+    background-color: #FFd700; 
     border: none;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
@@ -49,5 +49,16 @@
     to {
       opacity: 1;
       transform: translateY(0);
+    }
+  }
+
+  /*Mobile Responsiveness*/
+  @media (max-width: 768px) {
+    .quote {
+      font-size: 1.2rem;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
     }
   }

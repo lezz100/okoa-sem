@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tuanze Kusoma</title>
+    <title>Tuanze Kusoma</title>
     <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" href="quote.css">
 </head>
 <body>
-    <br><br><br>
     <nav class="navbar">
         <div class="logo">
           <h2>Tuanze kusoma</h2>
+        </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
@@ -87,5 +91,12 @@
 <footer class="footer">
     <p>&copy; 2025 ClassBoost. All Rights Reserved.</p>
   </footer>
+
+  <script>
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+      document.querySelector('.hamburger-menu').classList.toggle('active');
+  });
+  </script>
 </body>
 </html>

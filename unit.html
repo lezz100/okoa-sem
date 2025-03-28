@@ -11,6 +11,11 @@
         <div class="logo">
           <h2>Tuanze kusoma</h2>
         </div>
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="timetable.html">Timetable</a></li>
@@ -37,7 +42,6 @@
         <p>Learn about the art of organizing and managing data efficiently. Relational models, data visualization, MySQL queries</p>
         <a href="https://drive.google.com/drive/u/5/folders/1UOZ8j9kS-wbgNTPHvtb6w3BTD7FVRBLQ" target="_blank"><button class="view-notes-btn">View Notes</button></a>
       </div>
-  
    
       <div class="unit-card">
         <h3>Unit 3: ENTREPRENEUSHIP</h3>
@@ -81,6 +85,17 @@
       </div>
     </div>
   </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 ClassBoost. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+      document.querySelector('.hamburger-menu').classList.toggle('active');
+  });
+  </script>
 </body>
 </html>
 

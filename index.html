@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tuanze Kusoma</title>
+    <title>Tuanze Kusoma</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     
@@ -12,27 +13,40 @@
     <div class="logo">
       <h2>Tuanze kusoma</h2>
     </div>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="timetable.html">Timetable</a></li>
       <li><a href="todo.html">Work-to-Do</a></li>
       <li><a href="rep.html">Class Reps</a></li>
     </ul>
-  </nav>
+</nav>
 
-  <div class="container">
-    <video autoplay loop muted plays-inline class="background-clip">
+<div class="container">
+    <video autoplay loop muted playsInline class="background-clip">
         <source src="images/vid3.mp4" type="video/mp4">
     </video>
+    <!-- <div class="overlay"></div> -->
     <div class="content">
         <h1>Welcome to Okoa-Sem 2.2</h1>
         <h1>Get all your pdfs and class resources in one place. Stay organized, motivated, all through!</h1>
         <a href="unit.html">View units</a>
     </div>
   </div>
+
 <footer class="footer">
     <p>&copy; 2025 ClassBoost. All Rights Reserved.</p>
   </footer>
     
+  <script>
+    document.querySelector('.hamburger-menu').addEventListener('click', function(){
+      document.querySelector('.hamburger-menu').classList.toggle('active');
+    });
+  </script>
+
 </body>
 </html>
