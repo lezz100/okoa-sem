@@ -41,11 +41,12 @@
 <footer class="footer">
     <p>&copy; 2025 ClassBoost. All Rights Reserved.</p>
   </footer>
-    
+
   <script>
-    document.querySelector('.hamburger-menu').addEventListener('click', function(){
+    document.querySelector('.hamburger-menu').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
       document.querySelector('.hamburger-menu').classList.toggle('active');
-    });
+  });
   </script>
 
 </body>

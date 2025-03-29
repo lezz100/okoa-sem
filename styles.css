@@ -487,6 +487,7 @@ body {
 
   .hamburger-menu {
     display: flex;
+    flex-direction: column;
   }
 
   .nav-links {
