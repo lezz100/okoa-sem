@@ -98,9 +98,9 @@ body {
     color: #FFD700; 
   }
 
-  /* Hamburger Menu */
+  /* Hamburger Menu */ 
   .hamburger-menu {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
@@ -333,7 +333,7 @@ body {
 }
 
 .timetable-container {
-  overflow-x: auto; /* Ensures horizontal scrolling on small screens */
+  overflow-x: auto; /*horizontal scrolling on small screens */
 }
 
 .timetable {
