@@ -100,7 +100,7 @@ body {
 
   /* Hamburger Menu */ 
   .hamburger-menu {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
@@ -486,8 +486,9 @@ body {
   }
 
   .hamburger-menu {
-    display: flex;
+    display: block;
     flex-direction: column;
+    overflow-y: auto;
   }
 
   .nav-links {
